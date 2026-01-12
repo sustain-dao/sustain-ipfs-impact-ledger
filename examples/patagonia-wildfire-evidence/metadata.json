@@ -1,0 +1,35 @@
+{
+  "osci_version": "0.1",
+  "commitment_id": "osci-patagonia-wildfire-2026-01",
+  "title": "Patagonia Wildfire Impact Evidence",
+  "description": "Evidence bundle documenting wildfire impact in Patagonia, Argentina, prepared as an example Open Sustainability Commitment on IPFS (OSCI).",
+  "category": "climate",
+  "region": "Patagonia, Argentina",
+  "time_period": {
+    "start": "2025-12",
+    "end": "2026-01"
+  },
+  "issuer": {
+    "name": "Sustain DAO",
+    "type": "organization",
+    "website": "https://sustaintoken.org"
+  },
+  "evidence": [
+    {
+      "type": "image",
+      "description": "Satellite or ground imagery showing wildfire-affected areas",
+      "path": "evidence/"
+    },
+    {
+      "type": "report",
+      "description": "Public reports or summaries related to Patagonia wildfires",
+      "path": "evidence/"
+    }
+  ],
+  "storage": {
+    "intended_networks": ["IPFS", "Filecoin"],
+    "persistence": "long-term"
+  },
+  "license": "CC-BY-4.0",
+  "disclaimer": "This dataset is provided for demonstration purposes only and does not represent a finalized or audited impact assessment."
+}
